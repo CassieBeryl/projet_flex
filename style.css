@@ -1,0 +1,79 @@
+
+
+#container {
+  border:2px solid #444;
+  display:flex;
+  justify-content: flex-start;
+  /*ou valeurs: flex-start ou flex-end ou space-bewteen ou space-around*/
+  /*align-items:center;
+  /*valeurs :strech ou flex-start ou flex-end baseline ou*/
+  height:200px;
+  flex-direction:row;
+  /*ou valeurs row ou column ou column-reverse*/
+  flex-wrap:wrap;
+  align-items:stretch;
+}
+
+.element {
+  width:150px;
+  height:100px;
+}
+
+
+.element:nth-child(1) {
+  background-color:orange;
+  /*margin:auto;*/
+  flex:1;
+}
+
+.element:nth-child(2) {
+  background-color:blue;
+  flex:2;
+}
+
+.element:nth-child(3) {
+  background-color:#ad6;
+}
+
+.element:nth-child(4) {
+  background-color:orange;
+  /*margin:auto;*/
+  flex:1;
+}
+
+.element:nth-child(5) {
+  background-color:blue;
+  flex:2;
+}
+
+.element:nth-child(6) {
+  background-color:#ad6;
+}
+.element:nth-child(7) {
+  background-color:orange;
+  /*margin:auto;*/
+  flex:1;
+}
+
+.element:nth-child(8) {
+  background-color:blue;
+  flex:2;
+}
+
+.element:nth-child(9) {
+  background-color:#ad6;
+}
+.element:nth-child(10) {
+  background-color:orange;
+  /*margin:auto;*/
+  flex:1;
+}
+
+.element:nth-child(11) {
+  background-color:blue;
+  flex:2;
+}
+
+.element:nth-child(12) {
+  background-color:#ad6;
+}
